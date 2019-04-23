@@ -170,3 +170,22 @@ input {
     font-size: 12px;
   }
 }
+
+#sort-todo {
+  cursor: pointer;
+  color: #662d91;
+  position: relative;
+  font-weight: bold;
+  height: 30px;
+  padding: auto;
+  border: 2px solid #662d91;
+  background-color: #eee;
+  text-align: center;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#sort-todo:hover {
+  background-color: #ccc;
+}
