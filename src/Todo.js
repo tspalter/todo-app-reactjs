@@ -4,9 +4,10 @@ import './Todo.css';
 class Todo extends Component {
   render() {
     return (
-      <ul id="todo-list">
-        <li><p>Get Groceries</p></li>
-      </ul>
+      <li>
+        <p>{this.props.text}</p>
+        <span className="close">X</span>
+      </li>
     );
   }
 }

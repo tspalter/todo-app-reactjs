@@ -1,0 +1,21 @@
+#sort-todo {
+  cursor: pointer;
+  color: #662d91;
+
+  font-weight: bold;
+  height: 40px;
+  padding: auto;
+  border: 2px solid #662d91;
+  background-color: #eee;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#sort-todo:hover {
+  background-color: #ccc;
+}
+
+#sort {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}

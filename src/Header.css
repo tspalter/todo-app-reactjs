@@ -1,6 +1,21 @@
-p {
-  margin-top: auto;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b2fcff !important;
+}
+
+h2 {
   margin-bottom: auto;
+  color: white;
+  text-align: center;
+}
+
+h6 {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
 }
 
 ul {
@@ -11,8 +26,6 @@ ul {
 ul li {
   cursor: pointer;
   position: relative;
-  color: #662d91;
-  font-family: sans-serif;
   padding: 5px 30px 5px 40px;
   list-style-type: none;
   background: #ffebbc;
@@ -76,8 +89,27 @@ ul li.checked::before {
 .close:hover {
   background-color: #662d91;
   color: white;
+  opacity: 1;
+}
+
+.slogan {
+  color: white;
+  margin-bottom: 0px !important;
+  padding: 0 !important;
+}
+
+
+.header {
+  align-self: center;
+  background-color: #ff8b00 !important;
+  position: relative;
+  margin: auto;
+  width: 99%;
+  top: 3px;
+  height: 100px;
   z-index: 2;
 }
+
 
 #add-todo {
   cursor: pointer;
@@ -94,4 +126,48 @@ ul li.checked::before {
 
 #add-todo:hover {
   background-color: #ccc;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  background-color: white;
+  margin: auto;
+  width: 60%;
+  min-height: 850px;
+  border: 2px solid #662d91;
+  border-bottom: 0;
+}
+
+#center {
+  z-index: 1;
+}
+
+#add {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+input {
+  width: 80%;
+  margin: 5px;
+  margin-left: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #left, #right {
+    display: none;
+  }
+
+  #center {
+    width: 100%;
+  }
+
+  input, #add-todo {
+    font-size: 12px;
+  }
 }
