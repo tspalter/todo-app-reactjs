@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/09-todo-react-tspalter/precache-manifest.32164b905ebc5197f8fa766d8790a33a.js"
+  "/09-todo-react-tspalter/precache-manifest.cacbfbae64d696ef06288eb005e04abc.js"
 );
 
 workbox.clientsClaim();
