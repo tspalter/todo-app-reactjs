@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of this project is to design a To-Do application using React.js.
 
 ## Available Scripts
 
