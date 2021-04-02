@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The goal of this project is to design a To-Do application using React.js.
+You can see the page at https://wustlcse204.github.io/09-todo-react-tspalter/
 
 ## Available Scripts
 
